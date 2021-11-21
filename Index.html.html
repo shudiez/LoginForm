@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <!--AGREGO MI ARCHIVO CSS-->
+    <link rel="stylesheet" href="css/LoginForm.css">
+    <!--AGREGO MI ARCHIVO JS-->
+    <script src="js/LoginForm.js"></script>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LogIn</title>
+</head>
+<body>
+  <div class="overlay">
+<!-- FORMULARIO DE INGRESO por Omar Dsoky -->
+<form>
+<!-- con = Contenedor para artículos en el formulario -->
+   <div class="con">
+ <!-- Contenido del encabezado de inicio -->
+   <header class="head-form">
+      <h2>BIENVENIDO!</h2>
+      <!-- Un mensaje de bienvenida o una explicación del formulario de inicio de sesión -->
+      <p>Escribe tu Usuario y Contraseña para poder ingresar</p>
+   </header>
+   <!--     Contenido del encabezado final  -->
+   <br>
+   <div class="field-set">
+     
+      <!--   nombre de usuario -->
+         <span class="input-item">
+           <i class="fa fa-user-circle"></i>
+         </span>
+        <!--   nombre de usuario Entrada-->
+         <input class="form-input" id="txt-input" type="text" placeholder="usuario@usuario.com" required>
+     
+      <br>
+     
+           <!--   Password -->
+     
+      <span class="input-item">
+        <i class="fa fa-key"></i>
+       </span>
+      <!--   Password Input-->
+      <input class="form-input" type="password" placeholder="Contraseña" id="pwd"  name="password" required>
+     
+<!--      Show/hide password  -->
+     <span>
+        <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+     </span>
+     
+     
+      <br>
+<!--        buttons -->
+<!--      button LogIn -->
+      <button class="log-in"> Ingresar </button>
+   </div>
+  
+<!--   other buttons -->
+   <div class="other">
+<!--      Forgot Password button-->
+      <button class="btn submits frgt-pass">Olvide mi Contraseña</button>
+<!--     Sign Up button -->
+      <button class="btn submits sign-up">Resistrate
+<!--         Sign Up font icon -->
+      <i class="fa fa-user-plus" aria-hidden="true"></i>
+      </button>
+<!--      End Other the Division -->
+   </div>
+     
+<!--   End Conrainer  -->
+  </div>
+  
+  <!-- End Form -->
+</form>
+</div>
+</body>
+</html>
+
